@@ -1,0 +1,34 @@
+.bicycles__list {
+  padding: 120px 60px;
+}
+
+.bicycles__list h1 {
+  padding: 0 0 40px 160px;
+  font: var(--font-1-xxl);
+}
+
+.bicycles__list span {
+  color: var(--cor-primaria-1);
+}
+
+.bicycles__list ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.bicycles__list h3 {
+  font: var(--font-1-xl);
+}
+
+.bicycles__list h3::before {
+  content: "";
+  width: 12px;
+  height: 8px;
+  background: var(--cor-primaria-1);
+}
+
+.bicycles__list h4 {
+  font: var(--font-2-m);
+  color: var(--cor-8);
+}
